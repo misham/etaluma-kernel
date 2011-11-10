@@ -2149,7 +2149,7 @@ static int omap_vout_remove(struct platform_device *pdev)
 	return 0;
 }
 
-static int __init omap_vout_probe(struct platform_device *pdev)
+static int omap_vout_probe(struct platform_device *pdev)
 {
 	int ret = 0, i;
 	struct omap_overlay *ovl;
